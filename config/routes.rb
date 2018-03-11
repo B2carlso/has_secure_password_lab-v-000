@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   root 'application#index'
-  get 'welcome/new'
+  get 'welcome/index'
 
 
   get '/login' => 'sessions#new'
